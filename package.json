@@ -1,0 +1,21 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "<a href=\"https://github.com/TencentCloudBase/cloudbase-templates\"><img src=\"https://main.qcloudimg.com/raw/7b50431d8cef29d9ebb82c4ff2e6032c.png\"></a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "tsc&&tcb fn deploy node-app --force "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cloudbase/cli": "^1.9.2",
+    "@types/md5": "^2.3.1",
+    "@types/node": "^16.11.1",
+    "md5": "^2.3.0",
+    "ts-node": "^10.3.0",
+    "tsc": "^2.0.3",
+    "typescript": "^4.4.4"
+  }
+}
